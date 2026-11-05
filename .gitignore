@@ -1,0 +1,12 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Corrupted directory on disk
+Individual_PDFs/
+
+# Files exceeding GitHub's 100MB limit and archives
+*.zip
+All_Names_Combined.pdf
+All_Names_Combined_Updated.pdf

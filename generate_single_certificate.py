@@ -3,7 +3,7 @@ import shutil
 import pymupdf as fitz
 
 def generate_certificate_for(name="Md Adib Ibne Yousuf"):
-    base_dir = r"d:\Certificate generator"
+    base_dir = os.path.dirname(os.path.abspath(__file__))
     master_pdf_path = os.path.join(base_dir, "AI4BT Global Summit 2026 certificate.pdf")
     font_path = os.path.join(base_dir, "AlexBrush-Regular.ttf")
 

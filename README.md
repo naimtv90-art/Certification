@@ -18,3 +18,4 @@ Run the desired script:
 ```bash
 python generate_certificates.py
 ```
+
